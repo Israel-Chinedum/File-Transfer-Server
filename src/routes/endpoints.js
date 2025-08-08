@@ -1,4 +1,4 @@
-import { homeRoute } from "../controller/homeRoute.js";
+import { homeRoute } from "../services/homeRoute.js";
 
 export const endpoints = (app) => {
   app.get("/", homeRoute);
