@@ -8,6 +8,8 @@ import { socket } from "./sockets/socket.js";
 
 dotenv.config();
 
+export const readyConn = new Map();
+
 const corsOptions = {
   origin: "http://localhost:5173",
   credentials: true,
